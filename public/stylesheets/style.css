@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+[type="radio"]:not(:checked) {
+    opacity: 1 !important;
+    position: static !important;
+    pointer-events: all;
+}
+
+[type="radio"]:checked {
+    opacity: 1 !important;
+    position: static;
+    pointer-events: all;
+}
+
+#chartContainer {
+    height: 300px;
+    width: 100%;
+}
